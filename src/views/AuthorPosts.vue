@@ -7,5 +7,3 @@ export default {
   name: 'AuthorPosts',
 }
 </script>
-
-<style></style>

@@ -1,5 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import PostList from '@/views/PostList.vue'
+import BlogPage from '@/views/BlogPage.vue'
 import PostDetails from '@/views/PostDetails.vue'
 import CreatePost from '@/views/CreatePost.vue'
 import AuthorPosts from '@/views/AuthorPosts.vue'
@@ -7,8 +7,8 @@ import AuthorPosts from '@/views/AuthorPosts.vue'
 const routes = [
   {
     path: '/',
-    name: 'PostList',
-    component: PostList,
+    name: 'BlogPage',
+    component: BlogPage,
   },
   {
     path: '/posts/:id',

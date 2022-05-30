@@ -7,5 +7,3 @@ export default {
   name: 'CreatePost',
 }
 </script>
-
-<style></style>

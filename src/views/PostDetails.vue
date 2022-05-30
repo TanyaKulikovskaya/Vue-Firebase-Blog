@@ -7,5 +7,3 @@ export default {
   name: 'PostDetails',
 }
 </script>
-
-<style></style>
