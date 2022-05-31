@@ -19,6 +19,7 @@
 
 <script>
 import { computed } from 'vue'
+
 export default {
   name: 'PostsListItem',
   props: {
