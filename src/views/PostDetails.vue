@@ -9,7 +9,7 @@
       <span>{{ post.authorEmail }}</span>
     </p>
     <p class="text-xl text-zinc-500 mb-16">{{ post.body }}</p>
-    <p class="text-xl text-teal-700 mb-4">Comments:</p>
+    <p v-if="post.comments" class="text-xl text-teal-700 mb-4">Comments:</p>
     <ul>
       <li
         v-for="(comment, index) in post.comments"
