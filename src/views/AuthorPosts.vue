@@ -28,7 +28,7 @@ export default {
         (post) => post.authorLastName === route.params.author
       )
     })
-
+    
     return { posts, postsByAuthor }
   },
 }
